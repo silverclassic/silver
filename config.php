@@ -1,6 +1,6 @@
 <?php
 
-define('HTTP_SERVER', 'http://localhost/challenge/');
+define('HTTP_SERVER', 'http://silverchallenge.cloudcontrolled.com/');
 
 define('DB_TYPE','mysql');
 define('DB_HOST','localhost');
