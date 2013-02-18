@@ -1,0 +1,133 @@
+/* 
+    Document   : style
+    Created on : Feb 17, 2013, 6:16:27 PM
+    Author     : silver
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#categoryLabel{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#homeMessage{
+    padding:12px;
+}
+
+.table{
+    display: table;
+    width:100%;
+    margin: 2px;
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+    border: 1px solid #ccccff;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-right: 2px;
+    width: 246px;
+}
+.cell:hover{
+    border: 1px solid #0066cc;
+}
+.img img{
+    width: 114px;    
+}
+.img{
+    display: inline-block;
+    float:left;
+}
+.name{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333399;
+    overflow: hidden;
+    max-height: 30px;
+    min-height: 30px;
+    height: auto !important;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.details{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    display: inline-block;
+    float:left;
+    width: 110px;
+    padding-left: 5px;
+}
+.details ul{
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+}
+.details ul li{
+    margin-bottom: 8px;
+}
+.spLeft{
+    display:inline-block;
+    float:left;
+    width:350px;
+    height:350px;
+    overflow: hidden;
+    margin: 5px;
+    border:1px #ccccff solid;
+}
+.spLeft img{
+    width: 350px;
+}
+.spRight{
+    display: block;
+    width:344px;
+    float:left;
+    margin: 5px;
+    height:350px;
+}
+#singleProduct .name{
+    color: #005d10;
+    padding-top: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#singleProduct .price{
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#singleProduct .note{
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+}
+#singleProduct .description{
+    color: #333;
+    height:100px;
+    font-size: 12px;
+    padding-top: 5px;
+    font-weight: normal;
+}
+#singleProduct .info{
+    display: block;    
+}
+#singleProduct .status{
+    float: left;
+    font-weight: bold;
+    font-style: italic;
+    color: #333399;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
